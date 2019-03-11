@@ -12,7 +12,7 @@ const Movie = (props) => {
             { props.movie ? (
                 <Card>
                     <CardMedia
-                        style={{height: 0, paddingTop: '56.25%'}}
+                        style={{height: 0, paddingTop: '56.25%', backgroundPosition: 'top'}}
                         image={props.movie.fields.image.fields.file.url}
                         title={props.movie.fields.title}
                     />
